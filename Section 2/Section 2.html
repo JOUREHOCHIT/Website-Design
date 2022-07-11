@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Comments</title>
+    <title>Home</title>
   </head>
-  <body bgcolor="Lavender">
-    <table align="center" bgcolor="Lavender" width="75%">
+  <body bgcolor="MistyRose">
+    <!--The container-->
+    <table align="center" width="75%">
       <tr><td>
+        <!--The navaigation bar-->
         <table width="100%">
           <tr>
-            <td width="45%"><a href="../index.html">Logo(Home)</a></td>
-            <td align="center"><a href="../Section 1-1/Section 1-1.html">Introduction</a></td>
-            <td align="center"><a href="../Section 1-2/Section 1-2.html">Application</a></td>
-            <td align="center"><a href="../Section 1-3/Section 1-3.html">Drawback</a></td>
-            <td align="center"><a href="../Section 1-4/Section 1-4.html">Conclusion</a></td>
-            <td align="center"><a href="../Section 2/Section 2.html">Comment</a></td>
+            <td width="45%">Logo(Home)</td>
+            <td align="center"><a href="../Section 1-1/Section 1-1.html"><img src="../introduction.png" height="20"></a></td>
+            <td align="left">Introduction</td>
+            <td align="center"><a href="../Section 1-2/Section 1-2.html"><img src="../application.png" height="20"></a></td>
+            <td align="left">Application</td>
+            <td align="center"><a href="../Section 1-2/Section 1-3.html"><img src="../drawback.png" height="20"></a></td>
+            <td align="left">Drawback</td>
+            <td align="center"><a href="../Section 1-2/Section 1-4.html"><img src="../conclusion.png" height="20"></a></td>
+            <td align="left">Conclusion</td>
+            <td align="center"><a href="Section 2.html"><img src="../feedback.png" height="20"></a></td>
+            <td align="left">Feedback</td>
           </tr>
         </table>
       </td></tr>
       <!--Title-->
       <tr>
         <td>
-          <!--The box model-->
+          <!--The box model of the header-->
           <table>
             <tr>
-              <td colspan="3" height="20"></td>
+              <td colspan="3" height="30"></td>
             </tr>
             <tr>
-              <td width="20"></td>
+              <td width="30"></td>
               <td>
-                <!--Enter your content herre-->
-                <h1>Comments</h1>
+                <!--Put your header here-->
+                <h1>Feedback</h1>
               </td>
-              <td width="20"></td>
+              <td width="30"></td>
             </tr>
             <tr>
               <td colspan="3" height="20"></td>
@@ -40,25 +47,154 @@
         </td>
       </tr>
       <tr>
-        <td align="justify" bgcolor="GhostWhite">
-          <!--The box model-->
+        <td bgcolor="Snow">
+          <!--The box model of the content-->
           <table>
             <tr>
               <td colspan="3" height="20"></td>
             </tr>
             <tr>
-              <td width="30"></td>
+              <td width="40"></td>
               <td width="92%">
-                <!--Enter your content herre-->
-                <!--Put your link destination here-->
-                <a name="#p1"></a>
-                <h3>Paragraph 1</h3>
-                <hr>
-                <p>
-                Hello world  
-                </p>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                <td width="30"></td>
+                <!--Put your content herre-->
+                <form name="comment" action="mailto:sc.chan@cpce-polyu.edu.hk" method="post">
+                  <a name="#p1"></a>
+                  <p align="justify">How was your experience with our website? We would like to learn how we did. Pleases answer us a few questions.</p>
+                  <h3>Personal information</h3>
+                  <hr>
+                  <p>We would like to learn more about you.</p>
+                  <table>
+                    <tr height="40">
+                      <td width="250">1. What is your first name?</td>
+                      <td><input type="text" name="user_fname" size="25"></td>
+                    </tr>
+                    <tr height="40">
+                      <td width="250">2. Your last name, please.</td>
+                      <td><input type="text" name="user_lname" size="25"></td>
+                    </tr>
+                    <tr height="40">
+                      <td width="250">3. Your pronoun.</td>
+                      <td>
+                        <input type="radio" name="user_pronoun" value="He/Him"> He/Him
+                        <input type="radio" name="user_pronoun" value="She/Her"> She/Her
+                        <input type="radio" name="user_pronoun" value="They/Them"> They/Them
+                      </td>
+                    </tr>
+                    <tr height="40">
+                      <td width="250">4. Your region.</td>
+                      <td>
+                        <select name="user_region">
+                          <option>North America</option>
+                          <option>South America</option>
+                          <option>Europe</option>
+                          <option>Africa</option>
+                          <option>Asia</option>
+                          <option>Oceania</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr height="40">
+                      <td width="250">5. Your email address.</td>
+                      <td><input type="text" name="user_email" size="25"></td>
+                    </tr>
+                  </table>
+                  <h3>Comment</h3>
+                  <hr>
+                  <p>Feel free to tell us your thought on our website.</p>
+                  <table>
+                    <tr height="40">
+                      <td>1. Which part of our website do you like?</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="feedback_favourite" value="Home"> Home</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="feedback_favourite" value="Introduction"> Introduction</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="feedback_favourite" value="Application"> Application</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="feedback_favourite" value="Drawback"> Drawback</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="feedback_favourite" value="Conclusion"> Conclusion</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="feedback_favourite" value="Comment"> Comment</td>
+                    </tr>
+                    <tr height="40">
+                      <td>2. How do you think of our website's overall design?</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table>
+                          <tr>
+                            <td></td>
+                            <td align="center" width="30">1</td>
+                            <td align="center" width="30">2</td>
+                            <td align="center" width="30">3</td>
+                            <td align="center" width="30">4</td>
+                            <td align="center" width="30">5</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td align="center">Very Bad</td>
+                            <td align="center"><input type="radio" name="feedback_design" value="1"></td>
+                            <td align="center"> <input type="radio" name="feedback_design" value="2"></td>
+                            <td align="center"><input type="radio" name="feedback_design" value="3"></td>
+                            <td align="center"><input type="radio" name="feedback_design" value="4"></td>
+                            <td align="center"><input type="radio" name="feedback_design" value="5" checked></td>
+                            <td align="center">Very Good</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr height="40">
+                      <td>3. Do you think our website helps you to learn more about the 5G?</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table>
+                          <tr>
+                            <td></td>
+                            <td align="center" width="30">1</td>
+                            <td align="center" width="30">2</td>
+                            <td align="center" width="30">3</td>
+                            <td align="center" width="30">4</td>
+                            <td align="center" width="30">5</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td align="center">Very Bad</td>
+                            <td align="center"><input type="radio" name="feedback_learn" value="1"></td>
+                            <td align="center"> <input type="radio" name="feedback_learn" value="2"></td>
+                            <td align="center"><input type="radio" name="feedback_learn" value="3"></td>
+                            <td align="center"><input type="radio" name="feedback_learn" value="4"></td>
+                            <td align="center"><input type="radio" name="feedback_learn" value="5" checked></td>
+                            <td align="center">Very Good</td>
+                          </tr>
+                        </table>
+                      </td>
+                      <tr height="40">
+                        <td>4. Do you think our  website needs any improvements?</td>
+                      </tr>
+                      <tr>
+                        <td><textarea name="feedback_improvent" rows="5" cols="50"></textarea></td>
+                      </tr>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr height="80">
+                      <td width="80%"><b>Thanks for your time to improves our website!</b></td>
+                      <td width="60"><input type="reset"></td>
+                      <td><input type="submit"></td>
+                    </tr>
+                  </table>
+                </form>
+                <!--End of your content-->
+              </td>
+              <td width="40"></td>
             </tr>
             <tr>
               <td colspan="3" height="30"></td>
@@ -66,6 +202,10 @@
           </table>
         </td>
       </tr>
+      <tr>
+        <td bgcolor="#DFDFDF" height="1"></td>
+      </tr>
     </table>
+    <br><br><br>
   </body>
 </html>
