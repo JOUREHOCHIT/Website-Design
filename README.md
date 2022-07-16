@@ -1,11 +1,10 @@
 # SEHH 1016 Group Project: 5G
 
-## Guide line
-**⚠️⚠️⚠️First, write down your student identification in index.html from line 3⚠️⚠️⚠️**  
-
-Go to the Templates.html, you will copy this template for you website backbone.  
-You will see a comment `<!--Put you content here-->`, put your code after that line.  
-You should only put your resourcses in your folder.
+## TLDR
+**⚠️⚠️⚠️ Write down your student identification in index.html from line 3 ⚠️⚠️⚠️**
+1. Put your code after the coment `<!--Put you content here-->`. 
+2. Put your picture after the comment `<!--Put you picture here-->`. 
+3. You should only put your resourceses in your folder.
 
 ## Deadlines
 | Tasks                              	| Deadlines 	|
